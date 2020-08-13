@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "a139a35a-bb32-4d68-b33f-18fe26a4cf73",
+		"name": "City Route Finder",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get city routes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/connected?origin=Boston&destination=New%20York",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"connected"
+					],
+					"query": [
+						{
+							"key": "origin",
+							"value": "Boston"
+						},
+						{
+							"key": "destination",
+							"value": "New%20York"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
